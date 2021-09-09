@@ -1,0 +1,39 @@
+.barraNav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 7vh;
+    padding-top: 10px;
+}
+.barraNav .logo{
+    width: 80px;
+    margin-right: 400px;
+    img{
+        width: 100%;
+        object-fit: cover;
+        border-radius: 50%;
+    }
+}
+.links{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: aquamarine;
+    li{
+        list-style: none;
+        a{
+            display: inline-block;
+            text-decoration: none;
+            color:black;
+            margin: 0 20px;
+            letter-spacing: 1px;
+            font-weight: 500;
+            font-size: 1.5em;
+            &:hover{
+                background-color: rgb(14, 53, 38);
+                color: whitesmoke;
+            }
+        }
+    }
+}
+

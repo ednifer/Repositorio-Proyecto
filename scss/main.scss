@@ -1,0 +1,30 @@
+@import "reset";
+@import "variables";
+@import "tipoLetra";
+@import "barraNav";
+@import "cards";
+@import "carrousel";
+
+body{
+    background-color: aquamarine;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+h1, h2{
+    text-align: center;
+    text-transform: uppercase;
+    color: $colorFont;
+    margin: 10px;
+}
+
+h5{
+    color: $colorFont;
+    font-size: 2.5rem;
+}
+.textCenter{
+    text-align: center;
+}
